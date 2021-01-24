@@ -10,7 +10,5 @@ I found Circos when I found Circular-genome-visualizer, an entire project that w
 1. Genbank
  1. [Biopython](https://biopython.org)
  1. [Parse Genbank file using BioPython.py](https://gist.github.com/peterk87/5422267)
-1. Visualizing
- 1. [Circos](http://circos.ca/)
-1. Whole projects
- 1. [tipputa/Circular-genome-visualizer](https://github.com/tipputa/Circular-genome-visualizer)
+1. Tutorials
+ 1. [Biopython tutorial.pdf](http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)
