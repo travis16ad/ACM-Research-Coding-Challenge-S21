@@ -3,12 +3,16 @@ from reportlab.lib.units import cm
 from Bio import SeqIO
 from Bio.Graphics import GenomeDiagram
 import argparse
+import sys
 
 def parse_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument('input_file', help='properly formatted Genbank file')
     parser.add_argument('output_file', help='name of ouput PNG')
     args = parser.parse_args()
+    if not args.output_file.lower().endswith('.png'):
+        print('Output file must be png')
+        sys.exit(1)
     return (args.input_file, args.output_file)
 
 def read_genbank(input_file):
