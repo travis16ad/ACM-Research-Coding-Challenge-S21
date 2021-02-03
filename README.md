@@ -17,9 +17,6 @@ I found Circos when I found Circular-genome-visualizer, an entire project that w
 After more research, I realized that Circos was unecessary, as I could do everything in Biopython, just as their tutorial PDF showed.
 
 # Sources
-1. Genbank
- 1. [Biopython](https://biopython.org)
-1. Tutorials
- 1. [Biopython tutorial.pdf](http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)
-1. Other features
- 1. [Argument parsing](https://docs.python.org/3/howto/argparse.html)
+1. Genbank - [Biopython](https://biopython.org)
+1. Tutorial - [Biopython tutorial.pdf](http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)
+1. Other feature - [Argument parsing](https://docs.python.org/3/howto/argparse.html)
