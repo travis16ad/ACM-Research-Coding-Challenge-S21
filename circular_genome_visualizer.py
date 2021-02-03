@@ -8,10 +8,10 @@ import sys
 def parse_arguments():
     parser = argparse.ArgumentParser()
     parser.add_argument('input_file', help='properly formatted Genbank file')
-    parser.add_argument('output_file', help='name of ouput PNG')
+    parser.add_argument('output_file', help='name of ouput SVG')
     args = parser.parse_args()
-    if not args.output_file.lower().endswith('.png'):
-        print('Output file must be png')
+    if not args.output_file.lower().endswith('.svg'):
+        print('Output file must be svg')
         sys.exit(1)
     return (args.input_file, args.output_file)
 
@@ -39,7 +39,7 @@ def make_diagram(genbank_record, output_file):
             end=len(genbank_record),
             circle_core=0.7,
     )
-    diagram.write(output_file, 'PNG')
+    diagram.write(output_file, 'SVG')
 
 def main():
     input_file, output_file = parse_arguments()
